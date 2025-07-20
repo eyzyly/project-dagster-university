@@ -6,7 +6,7 @@ import geopandas as gpd
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from dagster_essentials.defs.assets import constants
+from dagster_essentials.assets import constants
 
 @dg.asset(
     deps=["taxi_trips", "taxi_zones"]
